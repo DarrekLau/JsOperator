@@ -45,14 +45,15 @@ console.log(sameName(names1, names2));
 
 // Part 4
 
-names=[];
-function count(names, name){
-    names.push(name);
-    return names.name.length;
+let names=[]
+function check(name){
 
+	    names.push(name);
+	let count = names.map(el => el.length);
+	return count;
 }
 
-console.log(count(names, "Peter"));
+check("peter,may")
 
 // #Exercise 2
 
